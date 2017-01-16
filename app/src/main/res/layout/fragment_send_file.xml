@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ss"
+    android:layout_height="match_parent"
+    tools:context="com.sunanda.monitorial.SendFileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/button_selector"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/buttonChoose"
+            android:text="Choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Space
+            android:layout_width="7dp"
+            android:layout_height="match_parent" />
+
+
+        <Button
+
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/button_selector"
+            android:elevation="5dp"
+            android:layout_weight="1"
+            android:id="@+id/buttonUpload"
+            android:textStyle="bold"
+            android:text="Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/input_outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/linearLayout">
+
+
+
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#2196f3"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Group:"/>
+
+
+        <Spinner
+            android:layout_weight="1"
+            android:background="@drawable/input_outline"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+        </Spinner>
+
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        android:id="@+id/idText"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_height="70dp">
+
+
+
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#2196f3"
+        android:layout_below="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        android:id="@+id/idImage"
+        android:layout_below="@+id/idText"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        android:visibility="invisible"
+        android:layout_height="match_parent">
+
+    
+    
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/imageView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    </android.support.v7.widget.CardView>
+    
+</RelativeLayout>

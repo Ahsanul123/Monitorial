@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Monitorial</string>
+    <string name="title_activity_navigation_actvity">NavigationActvity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="register">Register </string>
+    <string name="Join_New_Group"> <u>Join New Group</u> </string>
+    <string name="Create_New_Group"> <u>Create New Group</u> </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="err_msg_name"> Name is Required</string>
+    <string name="err_msg_roll"> Roll is Required</string>
+    <string name="err_msg_email"> Email is Required</string>
+    <string name="err_msg_phone">Phone Number is Required</string>
+    <string name="err_msg_institution">Institution is Required</string>
+
+
+    <string-array name="names">
+
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+
+
+    </string-array>
+
+
+</resources>

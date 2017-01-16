@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/location"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/follow"
+            android:title="Find" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/create"
+                android:title="Create Group" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/join1"
+                android:title="Join Group" />
+
+
+            <item
+                android:id="@+id/assignment"
+                android:icon="@drawable/send1"
+                android:title="Send Assignment"
+
+                />
+
+            <item
+                android:id="@+id/getAssignment"
+                android:icon="@drawable/find"
+                android:title="Find Assignment"
+
+                />
+        </menu>
+    </item>
+
+</menu>

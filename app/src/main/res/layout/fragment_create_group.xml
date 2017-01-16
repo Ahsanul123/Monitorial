@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ss"
+    android:layout_height="match_parent"
+    tools:context="com.sunanda.monitorial.CreateGroupFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Create_New_Group"
+        android:id="@+id/textView5"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_outline"
+        android:hint="Group Name :"
+        android:padding="15dp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@drawable/button_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ADD"
+        android:id="@+id/btnAdd"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/create"
+        android:layout_alignEnd="@+id/create" />
+
+
+
+
+</RelativeLayout>
